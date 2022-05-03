@@ -100,6 +100,23 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+.thank-you-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.thank-you-img h1{
+    margin: 0;
+    padding: .75em;
+} 
+
+.thank-you-img p {
+    margin: 0;
+}
+
 @media (min-width: 600px) {
     body {
         background: hsl(216, 12%, 8%);
